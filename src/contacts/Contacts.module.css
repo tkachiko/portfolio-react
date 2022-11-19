@@ -1,6 +1,7 @@
 .contactsBlock {
   height: 100vh;
   background-color: #ffd4da;
+  flex-wrap: nowrap;
 }
 
 .contactsContainer {

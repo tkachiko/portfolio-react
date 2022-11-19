@@ -1,0 +1,15 @@
+.footer {
+  background-color: #dfffb8;
+  flex-wrap: nowrap;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
