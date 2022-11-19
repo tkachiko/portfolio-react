@@ -1,13 +1,11 @@
-.projectsBlock {
+.contactsBlock {
   height: 100vh;
-  background-color: #f1e2ff;
+  background-color: #ffd4da;
 }
 
-.projectsContainer {
-  align-items: center;
+.contactsContainer {
   flex-direction: column;
   justify-content: flex-start;
-  flex-wrap: inherit;
 }
 
 .title {
@@ -15,11 +13,10 @@
   background-color: #dadada;
 }
 
-.projects {
+.contacts {
   border: 1px solid;
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  overflow: scroll;
 }
