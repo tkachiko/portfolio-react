@@ -1,6 +1,7 @@
 .footer {
   background-color: #dfffb8;
   flex-wrap: nowrap;
+  padding: 50px 0;
 }
 
 .footerContainer {
@@ -12,4 +13,5 @@
   display: flex;
   justify-content: space-evenly;
   width: 80%;
+  padding: 20px 0;
 }

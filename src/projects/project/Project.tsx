@@ -10,7 +10,7 @@ export const Project: React.FC<PropsType> = (props) => {
   return (
     <div className={styles.project}>
       <div className={styles.icon}>
-        <button className={styles.button}>Watch</button>
+        <a className={styles.button} href={'#'}>Watch</a>
       </div>
       <h3>{props.title}</h3>
       <span className={styles.description}>{props.description}</span>

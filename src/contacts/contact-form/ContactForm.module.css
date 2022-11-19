@@ -1,0 +1,15 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+}
+
+.contactForm input {
+  height: 30px;
+  margin: 10px 0 0 0;
+}
+
+.contactForm textarea {
+  height: 150px;
+  margin: 10px 0 15px 0;
+}

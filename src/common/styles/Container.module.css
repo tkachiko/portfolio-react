@@ -8,3 +8,9 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 625px) {
+  .container {
+    justify-content: center;
+  }
+}
