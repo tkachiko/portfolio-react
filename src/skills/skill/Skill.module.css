@@ -8,12 +8,16 @@
   padding: 20px;
 }
 
+.skill h3 {
+  background-color: aquamarine;
+}
+
 .icon {
   width: 60px;
   height: 60px;
-  background-color: #eeef;
+  background-color: #f8b5b5;
 }
 
 .description {
-
+  background-color: blanchedalmond;
 }

@@ -4,6 +4,10 @@
   padding: 50px 0;
 }
 
+.footer h2 {
+  background-color: #80ffff;
+}
+
 .footerContainer {
   display: flex;
   flex-direction: column;
@@ -13,5 +17,10 @@
   display: flex;
   justify-content: space-evenly;
   width: 80%;
-  padding: 20px 0;
+  margin: 20px 0;
+  background-color: #ffd4f0;
+}
+
+.footer p {
+  background-color: #fce4a6;
 }

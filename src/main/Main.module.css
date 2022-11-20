@@ -8,6 +8,18 @@
   background-color: #f7f7f7;
 }
 
+.textBlock span {
+  background-color: aqua;
+}
+
+.textBlock h1 {
+  background-color: #dfffb8;
+}
+
+.textBlock p {
+  background-color: #99d0fb;
+}
+
 .photo {
   width: 325px;
   height: 400px;

@@ -5,6 +5,10 @@
   flex-direction: column;
 }
 
+.project h3 {
+  background-color: darkkhaki;
+}
+
 .button {
   width: 100px;
   height: 30px;
@@ -19,12 +23,12 @@
 .icon {
   width: 100%;
   height: 200px;
-  background-color: #eeef;
+  background-color: #d582ff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .description {
-
+  background-color: cadetblue;
 }
