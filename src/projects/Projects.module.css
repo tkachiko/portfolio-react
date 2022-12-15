@@ -1,6 +1,6 @@
 .projectsBlock {
-  min-height: 100vh;
-  background-color: #f1e2ff;
+  background-color: #1f1f20;
+  padding: 100px 0;
 }
 
 .projectsContainer {
@@ -11,8 +11,17 @@
 }
 
 .title {
-  text-transform: capitalize;
-  background-color: #dadada;
+}
+
+.title::before {
+  content: '';
+  background: #4e93e6;
+  width: 55px;
+  height: 1px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 
 .projects {
@@ -21,4 +30,12 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 30px;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1129px) {
+  .projects {
+    justify-content: center;
+  }
 }

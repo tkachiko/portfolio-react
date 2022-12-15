@@ -1,0 +1,22 @@
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  position: relative;
+  margin: 0 0 30px;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.title::before {
+  content: '';
+  background: #4e93e6;
+  width: 55px;
+  height: 1px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}

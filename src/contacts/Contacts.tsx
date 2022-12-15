@@ -9,7 +9,6 @@ export const Contacts = () => {
       <div className={`${styleContainer.container} ${styles.contactsContainer}`}>
         <h2 className={styles.title}>contacts</h2>
         <ContactForm/>
-        <button>Send message</button>
       </div>
     </div>
   );
