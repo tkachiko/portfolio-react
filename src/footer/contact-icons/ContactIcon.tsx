@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ContactIcon.module.css';
+import styles from './ContactIcon.module.scss';
 
 type PropsType = {
   src: string

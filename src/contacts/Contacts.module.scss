@@ -1,0 +1,12 @@
+@import './src/common/styles/sass/variables';
+
+.contactsBlock {
+  background-color: $bgSecondColor;
+  flex-wrap: nowrap;
+  padding: 100px 0;
+
+  .contactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
