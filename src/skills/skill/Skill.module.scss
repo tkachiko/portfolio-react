@@ -1,0 +1,25 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.skill {
+  width: 250px;
+  background-color: $bgColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #f8b5b5;
+  }
+  h3 {
+    @include  text($titleFontFamily, 20px, 1.8);
+    color: $textColor;
+  }
+  .description {
+    background-color: $bgColor;
+    @include  text($textFontFamily, 16px, 1.2);
+  }
+}
