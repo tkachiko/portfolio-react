@@ -1,0 +1,23 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.title {
+  @include text($titleFontFamily, 36px, 1.2);
+  letter-spacing: 5px;
+  position: relative;
+  margin: 0 0 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+
+
+  &::before {
+    content: '';
+    background: $primaryColor;
+    width: 55px;
+    height: 1px;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}
