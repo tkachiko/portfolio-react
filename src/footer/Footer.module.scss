@@ -1,0 +1,25 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.footer {
+  background-color: $bgColor;
+  flex-wrap: nowrap;
+  padding: 50px 0;
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+
+    .icons {
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: 30px 0;
+    }
+
+    p {
+      @include text('Poppins', 14px, 1.8);
+      color: rgba(255, 255, 255, .5);
+    }
+  }
+}

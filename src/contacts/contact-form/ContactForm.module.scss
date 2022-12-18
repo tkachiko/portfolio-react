@@ -1,21 +1,39 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
 .contactForm {
   display: flex;
   flex-direction: column;
   width: inherit;
   margin-top: 30px;
+  max-width: 50%;
 
   input,
   textarea {
+    @include text('Poppins', 14px, 1.2);
     width: 100%;
+    border: none;
+    background: $bgColor;
+    outline: $primaryColor;
+    padding: 15px;
   }
 
+
   input {
-    height: 30px;
+    height: 40px;
     margin: 10px 0 0 0;
   }
 
   textarea {
     height: 150px;
     margin: 10px 0 15px 0;
+    resize: vertical
+  }
+
+  .btn {
+    @include button();
+    margin-top: 10px;
+    width: 200px;
+    align-self: center;
   }
 }

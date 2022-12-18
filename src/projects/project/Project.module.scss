@@ -30,27 +30,9 @@
     }
 
     .viewBtn {
-      background-color: $primaryColor;
-      height: 50px;
-      border-radius: 25px;
-      font-size: 14px;
-      line-height: 20px;
-      text-transform: uppercase;
-      padding: 15px;
-      min-width: 150px;
-      text-align: center;
-      display: inline-block;
-      color: $textColor !important;
-      font-weight: 600;
-      overflow: hidden;
-      text-decoration: none;
+      @include button();
       opacity: 90%;
       position: relative;
-      z-index: 1;
-
-      &:hover {
-        background-color: $primaryColorOnHover;
-      }
     }
   }
 

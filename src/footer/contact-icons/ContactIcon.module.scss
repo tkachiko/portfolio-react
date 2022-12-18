@@ -1,4 +1,11 @@
+@import './src/common/styles/sass/variables';
+
+.link {
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+  &:hover {
+    filter: brightness(0) saturate(100%) invert(15%) sepia(96%) saturate(4515%) hue-rotate(323deg) brightness(79%) contrast(109%);
+  }
+}
 }

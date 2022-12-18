@@ -1,0 +1,14 @@
+@import './src/common/styles/sass/variables';
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  background-color: $bgSecondColor;
+
+  a {
+    color: $textColor;
+    text-decoration: none;
+  }
+}

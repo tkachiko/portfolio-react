@@ -6,3 +6,26 @@
   line-height: $lineHeight;
   color: $textColor;
 }
+
+@mixin button() {
+  background-color: $primaryColor;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 15px;
+  min-width: 150px;
+  text-align: center;
+  display: inline-block;
+  color: $textColor !important;
+  font-weight: 600;
+  overflow: hidden;
+  text-decoration: none;
+  z-index: 1;
+  border: none;
+  box-shadow: 0 5px 15px rgb(0, 0, 0 / 15%);
+  &:hover {
+    background-color: $primaryColorOnHover;
+  }
+}
