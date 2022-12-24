@@ -20,7 +20,7 @@ const skills = [
   {
     title: 'React',
     url: react,
-    description: 'Class and functional components, components\'s life-cycle methods, props, hooks, HOC.',
+    description: 'Class and functional components, components\' life-cycle methods, props, hooks, HOC.',
   },
   {
     title: 'Redux',
@@ -30,12 +30,12 @@ const skills = [
   {
     title: 'TypeScript',
     url: typescript,
-    description: 'Native JS: classes, functions, working with arrays and objects, Promises, REST Api; TS: as type, generics, infer.',
+    description: 'Types, generics, interface.',
   },
   {
     title: 'JavaScript',
     url: javascript,
-    description: 'Native JS: classes, functions, working with arrays and objects, Promises, REST Api; TS: as type, generics, infer.',
+    description: 'Classes, functions, working with arrays and objects, Promises, REST Api',
   },
   {
     title: 'Git',

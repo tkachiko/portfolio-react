@@ -1,0 +1,14 @@
+@import './src/common/styles/sass/variables';
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 30px;
+
+  a {
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+}
