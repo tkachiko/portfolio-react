@@ -6,7 +6,10 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  @media screen and (max-width: 625px) {
+  @media screen and (max-width: 1074px) {
     justify-content: center;
   }
+  //@media screen and (max-width: 625px) {
+  //  justify-content: center;
+  //}
 }

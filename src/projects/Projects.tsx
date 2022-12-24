@@ -3,8 +3,8 @@ import styles from './Projects.module.scss'
 import styleContainer from '../common/styles/Container.module.scss'
 import {Project} from './project/Project'
 import {Title} from '../common/components/title/Title'
-import socialImage from './../assets/image/social.jpeg'
-import todoImage from './../assets/image/todo.jpeg'
+import socialImage from '../assets/image/projects/social.jpeg'
+import todoImage from '../assets/image/projects/todo.jpeg'
 
 export const Projects = () => {
   const social = {
