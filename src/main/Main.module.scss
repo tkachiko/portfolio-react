@@ -5,39 +5,48 @@
   height: 100vh;
   background-color: $bgColor;
 
-  .textBlock {
+  .container {
+    @include container();
+  }
+
+  .greeting {
     width: 410px;
 
     span {
       @include text($textFontFamily, 16px, 1.8);
-    }
 
-    h1 {
-      @include text($titleFontFamily, 50px, 1.2);
-      padding: 10px 0 10px;
 
-      span {
+      &:nth-child(2) {
         @include text($titleFontFamily, 50px, 1.2);
-        position: relative;
+        padding: 10px 0 10px;
         display: inline-block;
-        z-index: 0;
+        font-weight: 700;
 
-        &::after {
-          content: "";
-          position: absolute;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          height: 20px;
-          width: 100%;
-          z-index: -1;
-          background: $primaryColor;
+        span {
+          @include text($titleFontFamily, 50px, 1.2);
+          position: relative;
+          display: inline-block;
+          z-index: 0;
+          font-weight: 700;
+
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 20px;
+            width: 100%;
+            z-index: -1;
+            background: $primaryColor;
+          }
         }
       }
     }
 
-    p {
-      @include text($textFontFamily, 27px, 1.2)
+    h1 {
+      @include text($textFontFamily, 27px, 1.2);
+      font-weight: 400;
     }
   }
 
@@ -45,6 +54,12 @@
     width: 450px;
     height: 450px;
     position: relative;
+
+    @media screen and(max-width: 375px){
+      margin: 15px 0;
+      width: 350px;
+      height: 350px;
+    }
 
     .absImg {
       background: url("./../assets/image/my-photo.jpg") center no-repeat;
@@ -57,6 +72,7 @@
       animation: morph 8s ease-in-out infinite 1s;
       background-blend-mode: multiply;
       box-shadow: inset 0 0 0 9px rgba(208, 0, 97, 0.3);
+
       @keyframes morph {
         0% {
           border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;

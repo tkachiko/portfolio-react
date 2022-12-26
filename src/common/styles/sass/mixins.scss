@@ -7,25 +7,29 @@
   color: $textColor;
 }
 
-@mixin button() {
-  background-color: $primaryColor;
-  height: 50px;
-  border-radius: 25px;
-  font-size: 14px;
-  line-height: 20px;
-  text-transform: uppercase;
-  padding: 15px;
-  min-width: 150px;
-  text-align: center;
-  display: inline-block;
-  color: $textColor !important;
-  font-weight: 600;
-  overflow: hidden;
-  text-decoration: none;
-  z-index: 1;
-  border: none;
-  box-shadow: 0 5px 15px rgb(0, 0, 0 / 15%);
-  &:hover {
-    background-color: $primaryColorOnHover;
+@mixin container() {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @media screen and (max-width: 1074px) {
+    justify-content: center;
   }
+}
+
+@mixin flex($direction, $justifyContent, $alignItems, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex-wrap: $wrap;
+}
+
+@mixin bgSettings() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

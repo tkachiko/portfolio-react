@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Footer.module.scss'
-import styleContainer from '../common/styles/Container.module.scss'
 import linkedin from '../assets/image/contacts/linkedin.svg'
 import telegram from '../assets/image/contacts/telegram.svg'
 import email from '../assets/image/contacts/email.svg'
@@ -21,12 +20,12 @@ export const Footer = () => {
 
   return (
     <div className={styles.footer}>
-      <div className={`${styleContainer.container} ${styles.footerContainer}`}>
+      <div className={styles.container}>
         <Title text={'Elena Tkachenko'} />
         <div className={styles.icons}>
           {contacts.map(contact => <ContactIcon key={contact.id} link={contact.link} img={contact.img}/>)}
         </div>
-        <p>  &#169; 2022 All rights reserved</p>
+        <p className={styles.copyright}>  &#169; 2022 All rights reserved</p>
       </div>
     </div>
   )
