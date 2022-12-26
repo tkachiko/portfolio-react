@@ -1,12 +1,15 @@
 @import './src/common/styles/sass/variables';
 @import './src/common/styles/sass/mixins';
+@import './src/common/components/button/Button.module';
 
-.contactForm {
-  display: flex;
-  flex-direction: column;
-  width: inherit;
+.form {
+  @include flex(column, flex-start, stretch, nowrap);
   margin-top: 30px;
-  max-width: 50%;
+  width: 540px;
+
+  @media screen and(max-width: 680px) {
+    width: 100%;
+  }
 
   input,
   textarea {
@@ -17,7 +20,6 @@
     outline: $primaryColor;
     padding: 15px;
   }
-
 
   input {
     height: 40px;
@@ -30,8 +32,8 @@
     resize: vertical
   }
 
-  .btn {
-    @include button();
+  button[type="submit"] {
+    @extend .btn;
     margin-top: 10px;
     width: 200px;
     align-self: center;

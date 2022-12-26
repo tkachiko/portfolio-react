@@ -1,12 +1,18 @@
 @import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
 
 .contactsBlock {
   background-color: $bgSecondColor;
   flex-wrap: nowrap;
   padding: 100px 0;
 
-  .contactsContainer {
+  .container {
+    @include container();
     flex-direction: column;
     justify-content: flex-start;
+
+    @media screen and(max-width: 680px) {
+      width: 100%;
+    }
   }
 }
