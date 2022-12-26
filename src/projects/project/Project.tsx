@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Project.module.scss';
+import {Button} from '../../common/components/button/Button'
 
 type PropsType = {
   title: string
@@ -12,7 +13,7 @@ export const Project: React.FC<PropsType> = (props) => {
     <div className={styles.project}>
       <div className={styles.image}
       style={props.style}>
-        <a className={styles.viewBtn} href={'#'}>Watch</a>
+        <Button text={'Watch'} />
       </div>
       <div className={styles.projectInfo}>
         <h3 className={styles.projectTitle}>{props.title}</h3>

@@ -28,12 +28,6 @@
       right: 0;
       opacity: .4;
     }
-
-    .viewBtn {
-      @include button();
-      opacity: 90%;
-      position: relative;
-    }
   }
 
   .projectInfo {
