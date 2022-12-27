@@ -2,7 +2,8 @@
 @import './src/common/styles/sass/mixins';
 
 .mainBlock {
-  height: 100vh;
+  height: fit-content;
+  padding: 100px 0;
 
   .container {
     @include container();
@@ -70,6 +71,7 @@
     width: 450px;
     height: 450px;
     position: relative;
+    margin-top: 70px;
 
     @media screen and(max-width: 740px) {
       margin: 15px 0;
