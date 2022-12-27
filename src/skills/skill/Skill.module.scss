@@ -23,7 +23,6 @@
 
   h3 {
     @include text($titleFontFamily, 20px, 1.8);
-    color: $textColor;
   }
 
   .description {

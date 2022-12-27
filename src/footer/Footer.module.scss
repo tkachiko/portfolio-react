@@ -2,13 +2,16 @@
 @import './src/common/styles/sass/mixins';
 
 .footer {
-  background-color: $bgColor;
   flex-wrap: nowrap;
   padding: 50px 0;
 
   .container {
     @include container();
     @include flex(column, flex-start, center, nowrap);
+
+    @media screen and(max-width: 680px) {
+      width: 100%;
+    }
 
     .icons {
       @include flex(row, space-evenly, center, nowrap);

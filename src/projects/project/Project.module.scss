@@ -8,6 +8,10 @@
   flex-direction: column;
   position: relative;
 
+  @media screen and (max-width: 460px){
+    width: 100%;
+  }
+
   .image {
     height: 300px;
     display: flex;

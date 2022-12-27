@@ -14,6 +14,7 @@ import scss from '../assets/image/skills/scss.svg'
 import formik from '../assets/image/skills/formik.svg'
 import git from '../assets/image/skills/git.svg'
 import material from '../assets/image/skills/material-ui.svg'
+import {Fade} from 'react-awesome-reveal'
 
 const skills = [
   {
@@ -89,12 +90,14 @@ export const Skills = () => {
   )
 
   return (
-    <div className={styles.skillsBlock}>
+    <div id={'skills'} className={styles.skillsBlock}>
       <div className={styles.container}>
-        <Title text={'Skills'} />
-        <div className={styles.skills}>
-          {skill}
-        </div>
+        <Fade>
+          <Title text={'Skills'} />
+          <div className={styles.skills}>
+            {skill}
+          </div>
+        </Fade>
       </div>
     </div>
   )

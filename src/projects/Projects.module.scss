@@ -2,7 +2,6 @@
 @import './src/common/styles/sass/mixins';
 
 .projectsBlock {
-  background-color: $bgColor;
   padding: 100px 0;
 
   .container {
@@ -11,6 +10,10 @@
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: inherit;
+
+    @media screen and(max-width: 680px) {
+      width: 100%;
+    }
 
     .projects {
       width: 100%;

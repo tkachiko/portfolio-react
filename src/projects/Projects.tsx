@@ -4,6 +4,7 @@ import {Project} from './project/Project'
 import {Title} from '../common/components/title/Title'
 import socialImage from '../assets/image/projects/social.jpeg'
 import todoImage from '../assets/image/projects/todo.jpeg'
+import {Fade} from 'react-awesome-reveal'
 
 export const Projects = () => {
   const social = {
@@ -26,13 +27,15 @@ export const Projects = () => {
   ]
 
   return (
-    <div className={styles.projectsBlock}>
+    <div id={'projects'} className={styles.projectsBlock}>
+        <Fade>
       <div className={styles.container}>
-        <Title text={'Projects'} />
-        <div className={styles.projects}>
-          {projects.map(p => <Project style={p.style} title={p.title} description={p.description} key={p.title}/>)}
-        </div>
+          <Title text={'Projects'} />
+          <div className={styles.projects}>
+            {projects.map(p => <Project style={p.style} title={p.title} description={p.description} key={p.title} />)}
+          </div>
       </div>
+        </Fade>
     </div>
   )
 }

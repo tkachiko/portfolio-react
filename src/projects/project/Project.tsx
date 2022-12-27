@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './Project.module.scss';
+import React from 'react'
+import styles from './Project.module.scss'
 import {Button} from '../../common/components/button/Button'
 
 type PropsType = {
@@ -12,7 +12,7 @@ export const Project: React.FC<PropsType> = (props) => {
   return (
     <div className={styles.project}>
       <div className={styles.image}
-      style={props.style}>
+           style={props.style}>
         <Button text={'Watch'} />
       </div>
       <div className={styles.projectInfo}>
@@ -20,5 +20,5 @@ export const Project: React.FC<PropsType> = (props) => {
         <span className={styles.description}>{props.description}</span>
       </div>
     </div>
-  );
-};
+  )
+}

@@ -3,7 +3,6 @@
 
 .mainBlock {
   height: 100vh;
-  background-color: $bgColor;
 
   .container {
     @include container();
@@ -11,6 +10,10 @@
 
   .greeting {
     width: 410px;
+
+    @media screen and (max-width: 740px) {
+      width: 90%;
+    }
 
     span {
       @include text($textFontFamily, 16px, 1.8);
@@ -42,12 +45,25 @@
           }
         }
       }
+
+      &:nth-child(4) {
+        div {
+          @include text($textFontFamily, 27px, 1.2);
+          font-weight: 400;
+        }
+
+        span {
+          font-size: 27px;
+          font-weight: 400;
+        }
+      }
     }
 
     h1 {
-      @include text($textFontFamily, 27px, 1.2);
-      font-weight: 400;
+      visibility: hidden;
+      position: absolute;
     }
+
   }
 
   .photo {
@@ -55,7 +71,7 @@
     height: 450px;
     position: relative;
 
-    @media screen and(max-width: 375px){
+    @media screen and(max-width: 740px) {
       margin: 15px 0;
       width: 350px;
       height: 350px;

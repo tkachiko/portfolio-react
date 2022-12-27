@@ -1,11 +1,15 @@
 @import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
 
 .header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  @include flex(row, flex-end, center, nowrap);
   height: 80px;
-  background-color: $bgSecondColor;
+  position: fixed;
+  z-index: 999;
+  padding: 0 30px;
+  left: 0;
+  right: 0;
+  opacity: .9;
 
   a {
     color: $textColor;
