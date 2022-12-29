@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.a4dd0d6b.css",
-    "main.js": "/portfolio-react/static/js/main.a71f7560.js",
+    "main.css": "/portfolio-react/static/css/main.b916ecff.css",
+    "main.js": "/portfolio-react/static/js/main.7950b8db.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/my-photo.jpg": "/portfolio-react/static/media/my-photo.63fb82134deb9dc4aea1.jpg",
     "static/media/social.jpeg": "/portfolio-react/static/media/social.349eaa3cf8ad83382f41.jpeg",
+    "static/media/cards.jpeg": "/portfolio-react/static/media/cards.c0e27dc3e3a282e63cce.jpeg",
     "static/media/todo.jpeg": "/portfolio-react/static/media/todo.612184c8805c12b7a0a8.jpeg",
     "static/media/codewars.svg": "/portfolio-react/static/media/codewars.a3a48fd50b842f84b95a1de653962f41.svg",
     "static/media/react.svg": "/portfolio-react/static/media/react.fdd3331d261ad6d5e1c92448737aa2aa.svg",
@@ -24,12 +25,12 @@
     "static/media/github.svg": "/portfolio-react/static/media/github.0a0f3a36e03f294632eb359c15fe79c2.svg",
     "static/media/telegram.svg": "/portfolio-react/static/media/telegram.7a6ea19cd7567028568396faaca8a19e.svg",
     "static/media/css3.svg": "/portfolio-react/static/media/css3.9882e252f3baf8b8d57642a1384d8ba3.svg",
-    "main.a4dd0d6b.css.map": "/portfolio-react/static/css/main.a4dd0d6b.css.map",
-    "main.a71f7560.js.map": "/portfolio-react/static/js/main.a71f7560.js.map",
+    "main.b916ecff.css.map": "/portfolio-react/static/css/main.b916ecff.css.map",
+    "main.7950b8db.js.map": "/portfolio-react/static/js/main.7950b8db.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4dd0d6b.css",
-    "static/js/main.a71f7560.js"
+    "static/css/main.b916ecff.css",
+    "static/js/main.7950b8db.js"
   ]
 }
