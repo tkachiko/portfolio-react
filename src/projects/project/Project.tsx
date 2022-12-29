@@ -6,6 +6,7 @@ type PropsType = {
   title: string
   description: string
   style: { backgroundImage: string }
+  link: string
 }
 
 export const Project: React.FC<PropsType> = (props) => {
@@ -13,7 +14,7 @@ export const Project: React.FC<PropsType> = (props) => {
     <div className={styles.project}>
       <div className={styles.image}
            style={props.style}>
-        <Button text={'Watch'} />
+        <Button text={'Watch'} link={props.link} />
       </div>
       <div className={styles.projectInfo}>
         <h3 className={styles.projectTitle}>{props.title}</h3>

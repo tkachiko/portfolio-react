@@ -12,7 +12,7 @@ import {Fade} from 'react-awesome-reveal'
 
 export const Footer = () => {
   const contacts = [
-    {id: v1(), label: 'linkedin', link: 'https://www.linkedin.com/in/elena-tkachenko-8a509265/', img: linkedin},
+    {id: v1(), label: 'linkedin', link: 'https://www.linkedin.com/in/elenatkachenko-/', img: linkedin},
     {id: v1(), label: 'telegram', link: 'https://t.me/tkachiko', img: telegram},
     {id: v1(), label: 'email', link: 'mailto:tkachikos@gmail.com', img: email},
     {id: v1(), label: 'github', link: 'https://github.com/tkachiko/', img: github},

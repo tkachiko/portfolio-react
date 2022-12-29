@@ -25,4 +25,8 @@
   &:hover {
     background-color: $primaryColorOnHover;
   }
+
+  &:active {
+    background-color: #690232;
+  }
 }

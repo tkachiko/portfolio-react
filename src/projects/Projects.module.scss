@@ -16,16 +16,13 @@
     }
 
     .projects {
+      @include flex(initial, center, flex-start, wrap);
       width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
       margin-top: 30px;
-      align-items: flex-start;
+      gap: 20px;
 
-      @media screen and (max-width: 1129px) {
+      @media screen and (max-width: 1150px) {
         justify-content: center;
-        gap: 20px;
       }
     }
   }
