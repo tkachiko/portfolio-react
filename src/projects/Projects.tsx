@@ -20,20 +20,22 @@ export const Projects = () => {
   const projects = [
     {
       title: 'Learning cards',
-      description: 'Stack: ReactJS, TypeScript, Redux, Redux-Thunk, React-Router-Dom, Axios, Formik, Material UI; Team development; Bug fixing, deploying.',
+      description: 'Stack: ReactJS, TypeScript, Redux, Redux Toolkit, Redux-Thunk, React-Router-Dom, Axios, Formik,' +
+        ' Material' +
+        ' UI; Team development; Bug fixing, refactoring, deploying.',
       style: cards,
       link: 'https://github.com/tkachiko/',
     },
     {
       title: 'Social network',
       description: 'Stack: React, Redux, React-Redux, Rest API, Axios, React-router-dom,\n' +
-        'Formik, Redux Thunk, React Hooks, Storybook, Unit tests, Ant Design.',
+        'React Hook Form, Redux Thunk, React Hooks, Unit tests, Ant Design.',
       style: social,
       link: 'https://github.com/tkachiko/social-network',
     },
     {
       title: 'Todolist',
-      description: 'Stack: React, Redux, React-Redux, Rest API, Axios, React-router-dom,\n' +
+      description: 'Stack: React, Redux, React-Redux, Redux Toolkit, Rest API, Axios, React-router-dom,\n' +
         'Formik, Redux Thunk, React Hooks, Storybook, Unit tests, Material UI.',
       style: todo,
       link: 'https://github.com/tkachiko/todolist',
